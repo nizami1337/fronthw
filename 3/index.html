@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task 2</title>
+</head>
+<body>
+    <div class="container">
+        <form id="quiz">
+            <div class="question">
+                <p><b>1.</b> How many letter are there in the word "Hello"?</p>
+                <span><input type="radio" name="q1" value="5"><p>5</p></span>
+                <span><input type="radio" name="q1" value="2"><p>2</p></span>
+            </div>
+            <div class="question">
+                <p><b>2.</b> How many letter are there in the word "World"?</p>
+                <span><input type="radio" name="q2" value="4"><p>4</p></span>
+                <span><input type="radio" name="q2" value="5"><p>5</p></span>
+            </div>
+            <button>Finish</button>
+        </form>
+        <p id="result" style="display: none;"><span id="correctAnswers"></span> correct answers to 2 questions</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

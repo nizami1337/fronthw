@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    gap: 30px;
+}
+
+.container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#quiz {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.question {
+    padding: 10px 15px;
+    background-color: bisque;
+}
+
+.question span {
+    display: flex;
+    gap: 5px;
+}

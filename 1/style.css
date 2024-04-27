@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.msg__container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.msg {
+    padding: 12px;
+    background-color: bisque;
+}
+
+.msg__top {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+}
+
+.msg__top__top {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+}
+
+.msg__top__bottom {
+    padding: 8px;
+}
+
+.msg__bottom__top {
+    padding-top: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.msg__bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.msg__bottom__bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.msg__bottom__bottom input, .msg__bottom__bottom textarea {
+    width: 100%;
+}
